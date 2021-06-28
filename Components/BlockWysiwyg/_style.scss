@@ -1,0 +1,36 @@
+[is='flynt-block-wysiwyg'] {
+  padding-bottom: $component-spacing-desktop;
+  width: 100%;
+
+  @media (min-width: $breakpoint-desktop) {
+    width: 50%;
+  }
+
+  .content {
+    text-align: inherit;
+
+    &--textLeft {
+      text-align: left;
+    }
+
+    &--textCenter {
+      text-align: center;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  a {
+    display: inline-block;
+    transition: all 0.2s ease-out;
+
+    &::before {
+      content: '↗';
+      text-decoration: none;
+      width: 10px;
+    }
+  }
+}
