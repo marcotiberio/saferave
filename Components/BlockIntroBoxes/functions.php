@@ -25,14 +25,28 @@ function getACFLayout()
                 'layout' => 'block',
                 'button_label' => __('Add Box', 'flynt'),
                 'sub_fields' => [
+                    // [
+                    //     'label' => __('Icon', 'flynt'),
+                    //     'name' => 'icon',
+                    //     'type' => 'image',
+                    //     'return_format' => 'array',
+                    //     'preview_size' => 'small',
+                    //     'required' => 0,
+                    //     'mime_types' => 'gif,jpg,jpeg,png,svg',
+                    //     'wrapper' => [
+                    //         'width' => 50
+                    //     ]
+                    // ],
                     [
-                        'label' => __('Icon', 'flynt'),
-                        'name' => 'icon',
-                        'type' => 'image',
-                        'return_format' => 'array',
-                        'preview_size' => 'small',
+                        'label' => __('Page Link', 'flynt'),
+                        'name' => 'pageLink',
+                        'type' => 'page_link',
                         'required' => 0,
-                        'mime_types' => 'gif,jpg,jpeg,png,svg',
+                        'post_type' => '',
+                        'taxonomy' => '',
+                        'allow_null' => 0,
+                        'allow_archives' => 1,
+                        'multiple' => 0,
                         'wrapper' => [
                             'width' => 50
                         ]
