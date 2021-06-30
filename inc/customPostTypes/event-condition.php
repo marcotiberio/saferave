@@ -43,7 +43,7 @@ function registerEventConditionPostType()
         'label'                 => __('Event Condition', 'flynt'),
         'description'           => __('Event Condition Description', 'flynt'),
         'labels'                => $labels,
-        'supports'              => ['title'],
+        'supports'              => ['title', 'revisions'],
         'taxonomies'            => ['category'],
         'hierarchical'          => false,
         'public'                => true,

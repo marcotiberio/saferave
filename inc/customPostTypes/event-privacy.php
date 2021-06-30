@@ -43,7 +43,7 @@ function registerEventPrivacyPostType()
         'label'                 => __('Event Privacy', 'flynt'),
         'description'           => __('Event Privacy Description', 'flynt'),
         'labels'                => $labels,
-        'supports'              => ['title'],
+        'supports'              => ['title', 'revisions'],
         'taxonomies'            => ['category'],
         'hierarchical'          => false,
         'public'                => true,

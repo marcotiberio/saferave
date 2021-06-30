@@ -43,7 +43,7 @@ function registerEventCapacityPostType()
         'label'                 => __('Event Capacity', 'flynt'),
         'description'           => __('Event Capacity Description', 'flynt'),
         'labels'                => $labels,
-        'supports'              => ['title'],
+        'supports'              => ['title', 'revisions'],
         'taxonomies'            => ['category'],
         'hierarchical'          => false,
         'public'                => true,
