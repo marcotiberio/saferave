@@ -18,11 +18,11 @@
   "Components/PremiumComponents/NavigationFooterColumns/Assets/twitter.svg": "Components/PremiumComponents/NavigationFooterColumns/Assets/twitter-b860fd200d.svg",
   "Components/PremiumComponents/NavigationFooterColumns/Assets/xing.svg": "Components/PremiumComponents/NavigationFooterColumns/Assets/xing-b8ecedbab7.svg",
   "Components/PremiumComponents/NavigationFooterColumns/Assets/youtube.svg": "Components/PremiumComponents/NavigationFooterColumns/Assets/youtube-3b8f2b7f41.svg",
-  "assets/admin.css": "assets/admin-7d05f90871.css",
+  "assets/admin.css": "assets/admin-6aee7a0462.css",
   "assets/admin.js": "assets/admin-7d78182351.js",
   "assets/admin.js.LICENSE.txt": "assets/admin-23200fb757.js.LICENSE.txt",
-  "assets/fonts/MonumentGrotesk.woff2": "assets/fonts/MonumentGrotesk-59162add48.woff2",
-  "assets/fonts/MonumentGroteskMono.woff2": "assets/fonts/MonumentGroteskMono-790b9fa313.woff2",
+  "assets/fonts/MonumentGrotesk-Mono.woff2": "assets/fonts/MonumentGrotesk-Mono-561840baab.woff2",
+  "assets/fonts/MonumentGrotesk-Regular.woff2": "assets/fonts/MonumentGrotesk-Regular-6db09e519c.woff2",
   "assets/fonts/Tungsten.woff2": "assets/fonts/Tungsten-28cd079c12.woff2",
   "assets/fonts/montserrat-v14-latin-700.woff": "assets/fonts/montserrat-v14-latin-700-80f10bd382.woff",
   "assets/fonts/montserrat-v14-latin-700.woff2": "assets/fonts/montserrat-v14-latin-700-39d93cf678.woff2",
@@ -34,7 +34,7 @@
   "assets/fonts/montserrat-v14-latin-regular.woff2": "assets/fonts/montserrat-v14-latin-regular-bc3aa95dca.woff2",
   "assets/icons/check-circle.svg": "assets/icons/check-circle-98401bcdb9.svg",
   "assets/icons/spinner.svg": "assets/icons/spinner-2e5c842fc5.svg",
-  "assets/main.css": "assets/main-297f46765a.css",
+  "assets/main.css": "assets/main-45640dffbb.css",
   "assets/main.js": "assets/main-b7e7ab3a67.js",
   "assets/main.js.LICENSE.txt": "assets/main-957f80e714.js.LICENSE.txt"
 }

@@ -5,8 +5,13 @@
     width: 50%;
   }
 
+  .header {
+    padding: 0 $container-padding-mobile;
+  }
+
   .items {
     @include reset-list;
+    border-top: 1px solid $black;
     display: flex;
     flex-flow: row wrap;
   }

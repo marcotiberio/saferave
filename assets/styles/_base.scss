@@ -4,8 +4,8 @@
 * Top level styles every element should inherit.
 */
 
-@include font-face('MonumentGrotesk', 'MonumentGrotesk', '400', 'regular');
-@include font-face('MonumentGroteskMono', 'MonumentGroteskMono', '400', 'regular');
+@include font-face('MonumentGrotesk', 'MonumentGrotesk-Regular', '400', 'regular');
+@include font-face('MonumentGroteskMono', 'MonumentGrotesk-Mono', '400', 'regular');
 @include font-face('Tungsten', 'Tungsten', '400', 'regular');
 
 html {
@@ -42,7 +42,7 @@ body {
 #{$heading-selectors} {
   color: $color-headline;
   font-weight: 700;
-  line-height: 1.45;
+  line-height: 1.2;
   margin-bottom: 0.9rem;
   margin-top: 0;
 
@@ -150,6 +150,7 @@ h6,
 
 a {
   color: $black;
+  line-height: 1.175;
   text-decoration: none;
   transition: color 0.2s ease-out;
 
@@ -163,6 +164,7 @@ p,
 .paragraph,
 table,
 figure {
+  line-height: 1.175;
   margin: 0 0 1.2rem;
 }
 

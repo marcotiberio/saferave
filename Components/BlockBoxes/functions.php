@@ -18,6 +18,14 @@ function getACFLayout()
                 'endpoint' => 0
             ],
             [
+                'label' => __('Headline', 'flynt'),
+                'name' => 'preContentHtml',
+                'type' => 'wysiwyg',
+                'delay' => 1,
+                'media_upload' => 0,
+                'required' => 1,
+            ],
+            [
                 'label' => __('Guidelines', 'flynt'),
                 'name' => 'guidelines',
                 'type' => 'repeater',
