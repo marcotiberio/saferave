@@ -5,6 +5,10 @@
     width: 50%;
   }
 
+  .preContent {
+    text-align: center;
+  }
+
   .items {
     @include reset-list;
     display: flex;
