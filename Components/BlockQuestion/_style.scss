@@ -15,8 +15,12 @@
     justify-content: space-between;
 
     .preContent {
-      height: calc(50% - 155px);
-      margin-top: 15%;
+      display: flex;
+      flex-flow: column wrap;
+      height: 50%;
+      justify-content: center;
+      margin-bottom: 0;
+      margin-top: 0;
       text-align: center;
       width: 80%;
     }
