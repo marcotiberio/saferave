@@ -6,7 +6,7 @@
   width: 100%;
 
   @media (min-width: $breakpoint-desktop) {
-    height: calc(100vh - 75px);
+    min-height: calc(100vh - 75px);
     width: 50%;
   }
 
@@ -52,6 +52,18 @@
 
       p {
         width: 100%;
+      }
+    }
+
+    .content a {
+      display: inline-block;
+      font-weight: bold;
+      transition: all 0.2s ease-out;
+  
+      &::before {
+        content: '↗';
+        text-decoration: none;
+        width: 10px;
       }
     }
   
