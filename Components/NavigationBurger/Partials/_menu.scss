@@ -63,10 +63,14 @@
         padding-left: $container-padding-tablet;
         padding-right: $container-padding-tablet;
       }
+
+      @media (max-width: $breakpoint-mobile-horizontal) {
+        height: 50px;
+      }
     }
   }
 
-  &-item:nth-last-child(1) {
+  &-item:nth-last-child(3) {
     border-top: 1px solid $white;
 
     .menu-link {
@@ -94,6 +98,20 @@
         line-height: 0.8;
         padding-left: $container-padding-tablet;
         padding-right: $container-padding-tablet;
+      }
+    }
+  }
+
+  &-item:nth-last-child(2) {
+    pointer-events: none;
+  }
+
+  &-item:nth-last-child(1) {
+    pointer-events: none;
+
+    .menu-link {
+      @media (max-width: $breakpoint-mobile-horizontal) {
+        font-size: 0.7rem;
       }
     }
   }
